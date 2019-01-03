@@ -63,6 +63,6 @@ callback = [es,mc]
 import tensorflow as tf
 
 with tf.device('/gpu:0'):
-    model.fit(X_train,y_train,batch_size = 32,epochs = 500,validation_data=(X_test,y_test),callbacks=callback)
+    model.fit(X_train,y_train,batch_size = 32,epochs = 500,validation_split=0.1,callbacks=callback)
 scores = model.evaluate(X_test,y_test)
 print(scores[1]*100)
