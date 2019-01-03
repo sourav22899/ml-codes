@@ -1,3 +1,3 @@
 # ml-codes
 
-This repo includes codes CNN,LSTM etc using Tensorflow+Keras and PyTorch.
+This repo includes codes of CNN,LSTM etc using Tensorflow+Keras and PyTorch.
